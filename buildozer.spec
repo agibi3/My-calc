@@ -10,7 +10,7 @@ orientation = portrait
 osx.kivy_version = 2.3.0
 fullscreen = 1
 
-android.build_tools_version = 33.0.2
+android.build_tools = 33.0.2
 android.api = 33
 android.ndk = 25b
 android.ndk_api = 21
