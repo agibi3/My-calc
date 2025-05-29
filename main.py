@@ -299,6 +299,5 @@ class Soft(App):
               self.last_operator = button_text in self.operators
           #except:
               #return 
-      
-      
-Soft().run()
+if __name__ == "__main__":     
+  Soft().run()
