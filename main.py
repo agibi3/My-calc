@@ -191,7 +191,7 @@ class Soft(App):
           
           #defining buttons action
       def on_button_press(self, instance):
-          #try:
+          try:
               button_text = instance.text
               curren = re.sub(r'\s+', '',input1.text)
               cursor_pos = input1.cursor_index()
@@ -297,7 +297,7 @@ class Soft(App):
                   curren = input1.cursor
               self.last_button = button_text
               self.last_operator = button_text in self.operators
-          #except:
-              #return 
+          except:
+              return 
 if __name__ == "__main__":     
   Soft().run()
