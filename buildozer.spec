@@ -1,26 +1,21 @@
 [app]
-title = My Calc
+title = MyCalc
 package.name = mycalc
-package.domain = org.test
+package.domain = org.agibi3
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
-version = 1.0
-requirements = python3,kivy
+version = 0.1
+requirements = kivy
 orientation = portrait
 fullscreen = 1
-osx.python_version = 3
+android.permissions = 
+android.api = 33
+android.ndk = 25b
+android.ndk_api = 21
+android.minapi = 21
+android.build_tools = 34.0.0
+android.archs = arm64-v8a,armeabi-v7a
 
 [buildozer]
 log_level = 2
 warn_on_root = 1
-
-[android]
-android.api = 33
-android.ndk = 25b
-android.ndk_path = 
-android.sdk_path = 
-android.ndk_api = 21
-# Skip Google Play services, signing, or AndroidX stuff for simplicity
-requirements = python3,kivy
-# Permissions (uncomment if needed)
-# android.permissions = INTERNET
