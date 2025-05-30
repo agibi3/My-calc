@@ -1,6 +1,6 @@
 from kivy.app import App
 from kivy.uix.boxlayout import BoxLayout 
-import math 
+import math
 import re
 from kivy.uix.scrollview import ScrollView 
 from kivy.factory import Factory as F
